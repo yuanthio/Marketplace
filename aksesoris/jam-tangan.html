@@ -1,0 +1,1463 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuanv Marketplace</title>
+    <link rel="stylesheet" href="../css/aksesoris/jam-tangan.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/logo.png" alt="Logo" width="60" height="60">
+            </a>
+            <a class="navbar-brand" href="#">Yuanthio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pakaian Pria
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../aksesoris/semua-aksesoris-pria.html">Semua Pakaian Pria</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/stelan.html">Stelan</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/pakaian-olahraga.html">Pakaian Olahraga</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/pakaian-atas.html">Baju</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/pakaian-bawah.html">Celana</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pakaian Wanita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../pakaian wanita/semua-pakaian-wanita.html">Semua Pakaian Wanita</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/stelan.html">Stelan</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/baju.html">Baju</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/celana.html">Celana</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/gamis.html">Gamis</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/hijab.html">Hijab</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="aksesoris.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aksesoris Pria
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../aksesoris/semua-aksesoris-pria.html">Semua Aksesoris Pria</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/sepatu.html">Sepatu</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/tas.html">Tas</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/topi.html">Topi</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/ikat-pinggang.html">Ikat Pinggang</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/kaos-kaki.html">Kaos Kaki</a></li>
+                                <li><a class="dropdown-item" href="#">Jam Tangan</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="aksesoris.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aksesoris Wanita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../aksesoris wanita/semua-aksesoris-wanita.html">Semua Aksesoris Wanita</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris wanita/sepatu.html">Sepatu</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris wanita/tas.html">Tas</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris wanita/bros.html">Bros</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris wanita/kalung.html">Kalung</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris wanita/kaos-kaki.html">Kaos Kaki</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris wanita/ikat-rambut.html">Ikat Rambut</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris wanita/masker.html">Masker</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Artikel</a>
+                    </li>
+                </ul>
+                <a class="btn btn-info button" href="#" role="button">
+                    <img width="20px" height="20px" src="../img/masuk.png" alt="Login">
+                    Masuk Akun</a>
+                <a class="btn btn-info button" href="#" role="button">
+                    <img width="20px" height="20px" src="../img/register.png" alt="Register">
+                    Register</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Judul Halaman Jam Tangan -->
+    <section class="judul-halaman jam-tangan mb-3">
+        <div class="container">
+            <div class="judul mb-3">
+                <div class="row">
+                    <h2>Jam Tangan</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="menu-jam-tangan">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/aksesoris/jam tangan/jam-tangan1.jpg" class="card-img-top" alt="kaos kaki1">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 83.000</h5>
+                            <p class="card-text">Aokeyo S001 Jam Tangan Pria Anti Air Original Luxury Stainless Steel</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#jamTangan1">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/aksesoris/jam tangan/jam-tangan2.jpg" class="card-img-top" alt="kaos kaki2">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 28.800</h5>
+                            <p class="card-text">GENEVA Jam Tangan Analog Pria - 6209 - Black</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#jamTangan2">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/aksesoris/jam tangan/jam-tangan3.jpg" class="card-img-top" alt="kaos kaki3">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 55.400</h5>
+                            <p class="card-text">Jam Tangan Pria Geneva Chrono Stainless Pasir</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#jamTangan3">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/aksesoris/jam tangan/jam-tangan4.png" class="card-img-top" alt="kaos kaki4">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 525.000</h5>
+                            <p class="card-text">Geneva Jam Tangan Pria 2020 Kuarsa Jam Tangan Klasik Sabuk Baja Mewah Kalender Bisnis Kasual Watch Herren Uhren Hadiah untuk Pria</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#jamTangan4">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/aksesoris/jam tangan/jam-tangan5.jpg" class="card-img-top" alt="kaos kaki5">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 450.900</h5>
+                            <p class="card-text">Sanwood® Geneva Men's Stainless Steel Roman Numerals Quartz Analog Wrist Watch</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#jamTangan5">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/aksesoris/jam tangan/jam-tangan6.jpg" class="card-img-top" alt="kaos kaki6">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 660.700</h5>
+                            <p class="card-text">Luxury Brand Leather Fashion Quartz Watch Men Wrist Watch Bracelet Wristwatches Male Hour Clock Relogio Masculino reloj hombre</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#jamTangan6">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/aksesoris/jam tangan/jam-tangan7.jpg" class="card-img-top" alt="kaos kaki7">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 128.000</h5>
+                            <p class="card-text">AM TANGAN PRIA STAINLESS STEEL//JAM TANGAN PRIA TALI RANTAI//GRATIS BATERAI CADANGAN</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#jamTangan7">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/aksesoris/jam tangan/jam-tangan8.jpg" class="card-img-top" alt="kaos kaki8">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 4.900.000</h5>
+                            <p class="card-text">ahst-best pro jam tangan fosil pria</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#jamTangan8">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Jam Tangan 1 -->
+    <div class="modal fade" id="jamTangan1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/aksesoris/jam tangan/jam-tangan1.jpg" alt="jam-tangan1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Aokeyo S001 Jam Tangan Pria Anti Air Original Luxury Stainless Steel</h4>
+                            <h3>Rp 83.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>🔥:::INFORMASI:::🔥 <br>
+                                        Special features: waterproof, luminous, calendar<br>
+                                        Display type: pointer<br>
+                                        Applicable people: male<br>
+                                        Style: Business<br>
+                                        Waterproof: can<br>
+                                        Waterproof performance: 30M<br>
+                                        Movement type: quartz<br>
+                                        Thickness: 10.5mm<br>
+                                        Dial diameter: 40mm<br>
+                                        Watch width: 18mm<br>
+                                        Watch length: 240mm<br>
+                                        Mirror material: mineral tempered glass mirror<br>
+                                        Buckle style: single-sided folding snap button / pin buckle<br>
+                                        Buckle material: stainless steel<br>
+                                        Strap material: stainless steel / leather<br>
+                                        Dial shape: round<br>
+                                        Case material: alloy<br><br>
+                                        
+                                        🎁:::PAKET:::🎁<br>
+                                        1*Jam Tangan + 1*Kotak Arloji + 1*Kartu Ucapan + Bungkus Gelembung Gratis<br><br>
+                                        
+                                        ✔️Semua foto aktual<br>
+                                        ✔️bisa cash on delivery (COD)<br>
+                                        ✔️ Selamat datang untuk mengikuti kami dan dapatkan voucher men</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Jam Tangan 2 -->
+    <div class="modal fade" id="jamTangan2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/aksesoris/jam tangan/jam-tangan2.jpg" alt="jam-tangan2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>GENEVA Jam Tangan Analog Pria - 6209 - Black</h4>
+                            <h3>Rp 28.800</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>Jam tangan ini hadir dengan interface penunjuk waktu analog yang unik dan stylish. Bagian tali terbuat dari bahan material stainless steel dengan warna yang menarik, menambahkan kesan modis dan elegan di dalam aktivitas sehari-hari. <br><br>
+                                    Fitur<br>
+                                    Antarmuka Analog yang Unik Jam tangan ini hadir dengan interface penunjuk waktu analogyang unik dan stylish. Sangat cocok untuk melengkapi gaya berbusana Anda agar terlihat lebih keren. Tahan Air 30 m Jam tangan ini memiliki fitur sertifikasi waterproof hingga 30 m. Tidak perlu khawatir jam tangan akan rusak jika terkena air hujan. Bahan Berkualitas Tinggi Bagian strap jam tangan ini terbuat dari bahan stainless steel yang berkualitas, lentur dan tahan untuk penggunaan dalam jangka waktu lama.<br><br>                                       
+                                                                            
+                                    Kelengkapan Produk<br><br>
+                                    
+                                    Rincian yang Anda dapatkan untuk pembelian produk ini:<br><br>
+                                    
+                                    1 x GENEVA Jam Tangan Analog Pria - 6209<br><br>
+                                                                                                                    
+                                    Spesifikasi GENEVA Jam Tangan Analog Pria - 6209<br><br>
+                                    
+                                    Diameter Jam 40 mm<br>
+                                    Jenis Kelamin Pria<br>
+                                    Material Stainless Steel<br>
+                                    Dimensi Panjang Strap: 230 mm Lebar Strap: 20 mm</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Jam Tangan 3 -->
+    <div class="modal fade" id="jamTangan3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/aksesoris/jam tangan/jam-tangan3.jpg" alt="jam-tangan3" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Jam Tangan Pria Geneva Chrono Stainless Pasir</h4>
+                            <h3>Rp 55.400</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>-100% Brand New <br>
+                                    -Gender: Pria, Wanita<br>
+                                    -Bahan Piringan: Stainless<br>
+                                    -Bahan Strap: Stainless<br>
+                                    -Display: Analog<br>
+                                    -Pergerakan: Quartz<br>
+                                    -Diameter: 4cm</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Jam Tangan 4 -->
+    <div class="modal fade" id="jamTangan4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/aksesoris/jam tangan/jam-tangan4.png" alt="jam-tangan4" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Geneva Jam Tangan Pria 2020 Kuarsa Jam Tangan Klasik Sabuk Baja Mewah Kalender Bisnis Kasual Watch Herren Uhren Hadiah untuk Pria</h4>
+                            <h3>Rp 525.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>Tipe barang: Jam Kuarsa Jam Tangan <br>
+                                    Bentuk kasus: Bulat<br>
+                                    Band Tipe Bahan: Besi Tahan Karat<br>
+                                    Diameter Dial: 43mm/0.141ft<br>
+                                    Kasus Tebal: 10.5mm/0.034ft<br>
+                                    Band Panjang: 24cm/0.787ft<br>
+                                    Band Lebar: 22mm/0.072ft<br>
+                                    Gaya: Fashion dan Kasual<br>
+                                    Dial Window Material Type: Hardlex<br>
+                                    Bahan Case: Paduan<br>
+                                    Gerakan: Kuarsa<br>
+                                    Jenis Kelamin: Pria<br>
+                                    Paket termasuk:<br>
+                                    -1 x Jam Tangan<br>
+                                    Pria Stainless Steel Tanggal Kalender Jam Tangan Kuarsa Bisnis Kasual Watch Untuk Pria Clock Montre Homme<br>
+                                    Stainless steel, bisnis watch mens watch olahraga jam tangan jam kuarsa militer watch, hadiah watch analog jam tangan Arloji Emas, Jam Tangan Mewah</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Jam Tangan 5 -->
+    <div class="modal fade" id="jamTangan5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/aksesoris/jam tangan/jam-tangan5.jpg" alt="jam-tangan5" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Sanwood® Geneva Men's Stainless Steel Roman Numerals Quartz Analog Wrist Watch</h4>
+                            <h3>Rp 450.900</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>Specifications: <br>
+                                    Featuring quartz movement and analog display, it is easy to read the time.<br>
+                                    The round dial is inlaid with many rhinestones, adding beauty to this watch.<br>
+                                    Faux leather band is not easy to deform and break, which is comfortable and durable to use.<br>
+                                    Item Name: Wrist Watch<br>
+                                    Gender: Women<br>
+                                    Dial Surface Material: Glass<br>
+                                    Band Material: Faux Leather<br>
+                                    Case Material: Alloy<br>
+                                    Style: Fashion<br>
+                                    Display: Analog<br>
+                                    Case Shape: Round<br>
+                                    Movement: Quartz (Battery)<br>
+                                    Battery: Built-in Battery (Included)<br>
+                                    Waterproof: No<br>
+                                    Features: Rhinestones Inlaid, Durable, Adjustable Strap<br>
+                                    Band: Length(Case Included): 23.5cm/9.25", Width: 1.6cm/0.63" (Approx.)<br>
+                                    Case: Diameter: 3.6cm/1.42", Thickness: 0.8cm/0.31" (Approx.)<br>
+                                    Notes:<br>
+                                    Due to the light and screen setting difference, the item's color may be slightly different from the pictures.<br>
+                                    Please allow slight dimension difference due to different manual measurement.<br>
+                                    Package Includes:<br>
+                                    1 x Wrist Watch<br>
+                                    1 x User Manual</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Jam Tangan 6 -->
+    <div class="modal fade" id="jamTangan6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/aksesoris/jam tangan/jam-tangan6.jpg" alt="jam-tangan6" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Luxury Brand Leather Fashion Quartz Watch Men Wrist Watch Bracelet Wristwatches Male Hour Clock Relogio Masculino reloj hombre</h4>
+                            <h3>Rp 660.700</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>Men's Luxury Stainless Steel Silver Golden Black Dial Quartz Wristwatch. Separate dials make it classy time piece that meet your style statement. This is socially acceptable accessories, widely respected and quick to be noticed by others that appreciate the finer details. <br><br>
+
+                                    Watch comes with box and gift wrapping options that make it a perfect gift.<br><br>
+                                    
+                                    FEATURES: Quartz, Water Resistant, Chronograph, Stop Watch, Calendar, Luminous hands.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Jam Tangan 7 -->
+    <div class="modal fade" id="jamTangan7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/aksesoris/jam tangan/jam-tangan7.jpg" alt="jam-tangan7" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>AM TANGAN PRIA STAINLESS STEEL//JAM TANGAN PRIA TALI RANTAI//GRATIS BATERAI CADANGAN</h4>
+                            <h3>Rp 128.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>MEREK NO BRAND <br>
+                                        MESIN : BATERAI<br>
+                                        DISPLAY : ANALOG<br>
+                                        STRAP : STAINLES STELL<br>
+                                        CRONO OFF/VARIASI<br>
+                                        MOVEMENT : QUARTZ<br>
+                                        WARNA : VARIASI WARNA<br>
+                                        SIZE JAM : 45MM<br>
+                                        METERIAL KACA JAM : KACA MINERAL<br>
+                                        FREE BATERAI CADANGAN<br>
+                                        100%REALPICT<br>
+                                        TAMPILAN SANGAT MEWAH<br>
+                                        DIPAKING SANGAT RAPI DAN AMAN</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Jam Tangan 8 -->
+    <div class="modal fade" id="jamTangan8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/aksesoris/jam tangan/jam-tangan8.jpg" alt="jam-tangan8" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>ahst-best pro jam tangan fosil pria</h4>
+                            <h3>Rp 4.900.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>Fossil <br>
+                                        bahan leather<br>
+                                        fitur tgl, Chrono Second<br>
+                                        tenaga battrey<br>
+                                        include box</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Keterangan -->
+    <div class="container mt-5">
+        <div class="keterangan d-flex justify-content-center">
+            <div class="row">
+                <h2 class="text-center">Jual Stelan Pria Model Terbaru & Pakaian Olahraga</h2>
+                <p>KOLEKSI BAJU PRIA TERBARU 2022</p>
+                <p>Berpakaian dengan penuh gaya telah jadi kebutuhan semua orang, termasuk para pria. Hal inilah yang membuat tren fashion menswear kian berkembang pesat. Kini, para pria tidak hanya sekedar berbusana saja, beberapa dari mereka telah menganggap style berpakaian sebagai bagian dari identitas dirinya. Model baju pria juga semakin hari semakin berkembang. Kalau dulu pria biasanya hanya mengenakan t-shirt dan kemeja, sekarang ini para pria bisa tampil lebih stylish dengan berbagai macam baju yang kekinian.
+                Tak hanya pada baju biasa, perkembangan style pada baju pria juga terjadi pada baju muslim. Baju muslim pria kini sudah hadir dengan model yang jauh lebih modern dan bisa dibilang mengikuti perkembangan zaman. Baju pria terbaik bisa kamu dapatkan di Yuanthio Marketplace. Yuanthio Marketplace menyediakan berbagai macam model dan desain baju pria dari beragam brand yang bisa kamu pilih sesuai keinginan serta tak perlu diragukan lagi kualitasnya.</p>
+                <p>BELI BAJU PRIA ONLINE DI YUANTHIO MARKETPLACE</p>
+                <p>Jika kamu tertarik untuk membeli salah satu koleksi baju pria terbaru, kamu bisa langsung membelinya secara online dengan mudah di Yuanthio Marketplace. Di Yuanthio Marketplace kamu juga bisa sekalian membeli jaket yang cocok dengan baju pria yang kamu mau. HIJUP adalah toko online terbesar di Indonesia yang menyediakan berbagai macam mode fashion baju pria terbaru. Yuanthio Marketplace juga menyediakan beragam baju pria dari brand-brand popular berkualitas tinggi untuk menjamin penampilanmu sehari-hari. Maka dari itu, jangan ragu untuk membeli baju atau baju muslim pria di Yuanthio Marketplace.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info -->
+    <section class="informasi">
+        <div class="container mt-5">
+            <div class="info">
+                <div class="row">
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Butuh Bantuan?</h5>
+                        <p>Senin - Jumat: 08:00 - 20:00 WIB
+                            Sabtu - Minggu / Libur Nasional: 11:00 - 20:00 WIB</p>
+                        <a href="" class="bold text-decoration-none"><i class="bi bi-envelope-fill"></i>
+                            yuanthiovirly@gmail.com</a><br>
+                        <a href="https://goo.gl/maps/M4Uyc4TiogZo5oTG9" class="bold text-decoration-none"><i class="bi bi-geo-alt-fill"></i> Kertamaya Bogor Selatan</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Sosial Media</h5>
+                        <a class=" bold text-decoration-none" href="https://www.facebook.com/yuanthio.thio"><i
+                                class="bi bi-facebook"></i> Facebook</a>
+                        <br>
+                        <a class=" bold text-decoration-none"
+                            href="https://www.instagram.com/mass_yuan/?next=%2F"><i class="bi bi-instagram"></i>
+                            Instagram</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Menu</h5>
+                        <a class=" bold text-decoration-none" href="">Pakaian Pria</a><br>
+                        <a class=" bold text-decoration-none" href="">Pakaian Wanita</a><br>
+                        <a class=" bold text-decoration-none" href="">Aksesoris Pria</a><br>
+                        <a class=" bold text-decoration-none" href="">Aksesoris Wanita</a><br>
+                        <a class=" bold text-decoration-none" href="">Artikel</a><br>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Akun</h5>
+                        <a class=" bold text-decoration-none" href=""><i class="bi bi-box-arrow-in-right"></i> Masuk
+                            Akun</a><br>
+                        <a class=" bold text-decoration-none" href=""> <i class="bi bi-pencil-fill"></i>
+                            Register</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <a class="btn" href="#" role="button"> <i class="bi bi-telephone-fill"></i> Hubungi Kami</a>
+                        <a class="btn" href="#" role="button"> <i class="bi bi-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer bg-dark text-light">
+            <p>&copy; copyright 2022. | built with Yuanthio Virly</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

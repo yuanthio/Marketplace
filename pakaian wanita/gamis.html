@@ -1,0 +1,1475 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuanv Marketplace</title>
+    <link rel="stylesheet" href="../css/pakaian wanita/gamis.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/logo.png" alt="Logo" width="60" height="60">
+            </a>
+            <a class="navbar-brand" href="#">Yuanthio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pakaian Pria
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Semua Pakaian Pria</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/stelan.html">Stelan</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/pakaian-olahraga.html">Pakaian Olahraga</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/pakaian-atas.html">Pakaian Atas</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/pakaian-bawah.html">Pakaian Bawah</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pakaian Wanita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../pakaian wanita/semua-pakaian-wanita.html">Semua Pakaian Wanita</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/stelan.html">Stelan</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/baju.html">Baju</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/celana.html">Celana</a></li>
+                                <li><a class="dropdown-item" href="#">Gamis</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/hijab.html">Hijab</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="aksesoris.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aksesoris Pria
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../aksesoris/semua-aksesoris-pria.html">Semua Aksesoris Pria</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/sepatu.html">Sepatu</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/tas.html">Tas</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/topi.html">Topi</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/ikat-pinggang.html">Ikat Pinggang</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/kaos-kaki.html">Kaos Kaki</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/jam-tangan.html">Jam Tangan</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="aksesoris.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aksesoris Wanita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Semua Aksesoris Pria</a></li>
+                                <li><a class="dropdown-item" href="#">Sepatu</a></li>
+                                <li><a class="dropdown-item" href="#">Tas</a></li>
+                                <li><a class="dropdown-item" href="#">Bros</a></li>
+                                <li><a class="dropdown-item" href="#">Kalung</a></li>
+                                <li><a class="dropdown-item" href="#">Kaos Kaki</a></li>
+                                <li><a class="dropdown-item" href="#">Ikat Rambut</a></li>
+                                <li><a class="dropdown-item" href="#">Masker</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Artikel</a>
+                    </li>
+                </ul>
+                <a class="btn btn-info button" href="#" role="button">
+                    <img width="20px" height="20px" src="../img/masuk.png" alt="Login">
+                    Masuk Akun</a>
+                <a class="btn btn-info button" href="#" role="button">
+                    <img width="20px" height="20px" src="../img/register.png" alt="Register">
+                    Register</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Judul Halaman Gamis -->
+    <section class="judul-halaman gamis mb-3">
+        <div class="container">
+            <div class="judul mb-3">
+                <div class="row">
+                    <h2>Gamis</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="menu-gamis">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian wanita/gamis/gamis1.png" class="card-img-top" alt="gamis1">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 86.000</h5>
+                            <p class="card-text">Baju Gamis Wanita Terbaru | Shiya Maxi Dress XL | Gamis Jumbo Syari Muslim Murah Kekinian FRZ</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#gamis1">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian wanita/gamis/gamis2.png" class="card-img-top" alt="gamis2">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 156.800</h5>
+                            <p class="card-text">Baju Gamis Wanita Muslim Terbaru Sandira Dress cantik Murah kekinian GMS01</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#gamis2">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian wanita/gamis/gamis3.jpg" class="card-img-top" alt="gamis3">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 68.400</h5>
+                            <p class="card-text">Santi Gamis Wanita Murah konveksi_tanah_abang Gamismurah bajugamis gamissyari bajugamiswanita moscr</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#gamis3">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian wanita/gamis/gamis4.jpg" class="card-img-top" alt="gamis4">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 75.000</h5>
+                            <p class="card-text">Baju Gamis Wanita Syar'i Muslim Remaja Sabinna Gamis Modis Wanita Lebaran 2022 Terbaru Super Kek Lt GG141</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#gamis4">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian wanita/gamis/gamis5.jpg" class="card-img-top" alt="gamis5">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 98.900</h5>
+                            <p class="card-text">SafaNesia - Grosir Baju Gamis Wanita Muslim Murah Varsha Dress</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#gamis5">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian wanita/gamis/gamis6.jpg" class="card-img-top" alt="gamis6">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 97.900</h5>
+                            <p class="card-text">Aespa Maxi Dress | Gamis wanita | Baju muslim | Pakaian wanita terbaru</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#gamis6">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian wanita/gamis/gamis7.jpg" class="card-img-top" alt="gamis7">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 70.000</h5>
+                            <p class="card-text">Gamis Monalisa Polos Rempel 3 Susun Mayung 3 Meter Maxy</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#gamis7">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian wanita/gamis/gamis8.jpg" class="card-img-top" alt="gamis8">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 88.000</h5>
+                            <p class="card-text">Gamis Monalisa Polos</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#gamis8">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Gamis 1 -->
+    <div class="modal fade" id="gamis1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/pakaian wanita/gamis/gamis1.png" alt="gamis1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Baju Gamis Wanita Terbaru | Shiya Maxi Dress XL | Gamis Jumbo Syari Muslim Murah Kekinian FRZ</h4>
+                            <h3>Rp 86.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>SHIYA DRESS <br><br>
+
+                                        Baju Gamis Wanita Terbaru | Shiya Maxi Dress XL | Gamis Jumbo Syari Muslim Murah Kekinian FRZ<br><br>
+                                        
+                                        KETERANGAN :<br>
+                                        => Bahan : Moscrepe<br>
+                                        => Detail : Perhatikan Gambar<br>
+                                        => Ukuran : All Size Fit To XL<br>
+                                        => LD 112 PB 140<br><br>
+                                                                                                                       
+                                        Warna READY<br>
+                                        *- Mocca<br>
+                                        *- Purple<br>
+                                        *- Darkgrey<br><br>
+                                                                                                                            
+                                        Baju Gamis Wanita Terbaru | Shiya Maxi Dress XL | Gamis Jumbo Syari Muslim Murah Kekinian FRZ<br><br>
+                                        
+                                        Note :<br>
+                                        ===============================================<br>
+                                        *- Foto Diatas Hanya Sebagai REFERENSI.<br>
+                                        *- Kemiripan warna asli dengan foto sekitar 85-95% bergantung pada resolusi layar maupun stok warna kain yg tersedia.<br>
+                                        *- Wajib mencantumkan warna piihan dan warna cadangan untuk antisipasi bila warna utama stok habis, bila ingin tetap menunggu warna yang diinginkan restok kembali (sekitar 1-3 hari).<br>
+                                        *- Bila warna yang dipilih tidak ada, maka kami akan konfirmasi via Pesan, bila dalam waktu 1x24 jam tdk ada jawaban maka kami mengirimkan warna yang tersedia alias RANDOM.<br>
+                                        *- Review Dan Ulasan Baik dan Memberikan Bintang *5 Kami Kasih VOUCHER di Orderan Selanjutnya.<br>
+                                        *- Bintang *3 Kebawah Mohon Maaf Kami Blacklist, Mohon Hargai Usaha Kami.<br>
+                                        ===============================================<br><br>
+                                        
+                                        #gamis #dress #gamiskekinian #muslimwanita #muslimgamis #gamisbrukat #grosirbaju #gamismurah #bajugamis #gamiskatun #bajuwanita #gamisjumbo #gamisterbaru #longdress #shiyadress #bajumaxi #dressjumbo #maxijumbo #dressterbaru</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Gamis 2 -->
+    <div class="modal fade" id="gamis2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/pakaian wanita/gamis/gamis2.png" alt="gamis2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Baju Gamis Wanita Muslim Terbaru Sandira Dress cantik Murah kekinian GMS01</h4>
+                            <h3>Rp 156.800</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>GAMIS TERBARU 2021 <br><br>
+
+                                        - BUSUI FRIENDLY (kancing aktif di bagian depan)<br>
+                                        - Free belt (bisa dipakai atau tidak karena bisa dilepas pasang)<br>
+                                        - Cutting lebaar dengan model rempelan di bagian pinggang Dress<br>
+                                        - Lengan pakai karet sehingga nyaman digunakan<br><br>
+                                        
+                                        Bahan Moscrepe Grade A<br>
+                                        - Jatuh<br>
+                                        - Lembut<br>
+                                        - Adeum<br>
+                                        - Tidak menerawang<br>
+                                        - Flowy dan menyerap keringat, pokoknya baguuus<br><br>
+                                        
+                                        ALL SIZE FIT TO XL<br><br>
+                                        
+                                        - Lingkar Dada : 100 - 105cm<br>
+                                        - Panjang Baju : 135 - 138cm<br>
+                                        - FREE TIMANG BESI DAN IKAT PINGGANG</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Gamis 3 -->
+    <div class="modal fade" id="gamis3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/pakaian wanita/gamis/gamis3.jpg" alt="gamis3" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Santi Gamis Wanita Murah konveksi_tanah_abang Gamismurah bajugamis gamissyari bajugamiswanita moscr</h4>
+                            <h3>Rp 68.400</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>* Cari produk terbaru dengan kualitas terbaik ? Disini tempatnya !! <br><br> 
+
+                                        * konveksi.tanah.abang Selalu Up To Date dengan koleksi-koleksi terbaru<br> 
+                                        * Dapatkan pengalaman belanja yang menyenangkan <br>
+                                        * Dijamin enggak akan bosen belanja di konveksi.tanah.abang<br>
+                                        * kualitas jahitan di jamin super bagus<br>
+                                        * Pemakaian Bahan premium<br>
+                                        * Produk ready stok<br>
+                                        * Pengiriman Cepat <br><br>
+                                        
+                                        * Detail Produk<br>
+                                        Bahan : Moscrepe<br>
+                                        PB : 135cm<br>
+                                        LD : 105cm<br>
+                                        Size : Allsize fit to L<br><br>
+                                        
+                                        INFO : Sebelum Chekout Pembayaran Harap Periksa Kembali Pesanan, Alamat ,No Hp Dengan Benar ( Agar Tidak ada Kesalahan & mempercepat Pengiriman Pesanan)<br><br>
+                                        
+                                        #GROSIRONLINEMURAH #BAJUGAMIS #BAJUMUSLIM #BAJUWANITA #GAMISWANITA #GAMISTERBARU #GAMISMURAH #BAJUGAMISMURAH #GAMISSYARI</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Gamis 4 -->
+    <div class="modal fade" id="gamis4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/pakaian wanita/gamis/gamis4.jpg" alt="gamis4" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Baju Gamis Wanita Syar'i Muslim Remaja Sabinna Gamis Modis Wanita Lebaran 2022 Terbaru Super Kek Lt GG141</h4>
+                            <h3>Rp 75.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>☑Cari produk terbaru dengan kualitas terbaik ? Disini  tempatnya !! <br>
+                                        ✔ Letsmuslimah<br>
+                                        Selalu Up To Date dengan koleksi-koleksi terbaru koleksi fashion Gamis Muslim terbaru yang kami tambahkan, jadi kamu tidak akan pernah bosen berbelanja koleksi produk  kami ,karena selalu ada stok dan produk yang kami Update setiap harinya !!!<br><br>
+                                        
+                                        KETERANGAN:<br><br>
+                                        
+                                        Bahan        : ITY CREPE<br>
+                                        Yang di dapat : GAMIS AJA<br>
+                                        Ukuran             : S, M, L, XL, XXL<br>
+                                        Detail Size       : S LD 85,
+                                                            M LD 95,
+                                                            L LD 100,
+                                                            XL LD 105,
+                                                            XL LD 120<br>
+                                        Panjang Depan:137 cm<br>
+                                        BUSUI FRIENDLY<br>
+                                        Cocok untuk    :  ,Kasual, Formal dan lain2<br>
+                                        Kualitas           : Nyaman Dipakai , Material bagus, High Quality<br><br>
+                                        
+                                        Good quality harga di jamin paling murah
+                                        Welcome reseller dan dropship<br><br>
+                                        
+                                        •	Gambar hanya Sebagai referensi kemiripan gambar dengan aslinya hanya 90-95% (perbedaan bisa di sebabkan karena pemakaian bahan ,warna ,ukuran,model,dan lainnya,harap maklum kalo ada ketidaksesuaian)<br><br>
+                                                                               
+                                        INFO : <br>
+                                        Sebelum Chekout Pembayaran Harap Priksa Kembali Pesanan,  Alamat ,No Hp Dengan Benar
+                                        ( Agar Tidak ada Kesalahan & mempercepat Pengiriman Pesanan)<br><br>
+                                        
+                                         Syarat Retur Barang  jika barang ( Cacat )<br>
+                                        Slipkan kembali alamat yg  nempel di paketannya kedalam baju retur 😊<br><br>
+                                        
+                                        #bajumuslim #bajuhijab #bajumurah #dresmuslim #bajuwanita #grosirbaju #olshopbandung #pusatbajumurah #jualbajumurah #atasanwanita #atasanmuslim #bajumodern #bajukekinian #bajuterhits #Dressyarii #gamissyariV #gamismurah #gamiscantik #GamisPesta #gamismodern #gamisjersey #gamisjumbo #gamispolos #gamissyarimurah #gamismuslimah #gamisbranded #gamispremium #gamisterbaru #gamiswolfis #gamissolo #gamisbusuifriendly #gamismaxmara #gamismenyusui <br><br>
+                                        
+                                        Terima kasih!</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Gamis 5 -->
+    <div class="modal fade" id="gamis5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/pakaian wanita/gamis/gamis5.jpg" alt="gamis5" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>SafaNesia - Grosir Baju Gamis Wanita Muslim Murah Varsha Dress</h4>
+                            <h3>Rp 98.900</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>Varsha Dress <br> Bahan : Mosscrepe <br> Detail Produk : Zipper belakang Zipper di bagian tangan (wudhu friendly) rempel badan depan belakang berkaret dibagian rempel pundak Detail <br> Ukuran : Lingkar <br> Dada : 105 cm <br> Panjang Dress : 138 Panjang <br> Lengan : 56 cm <br> Lebar Dress : 340 cm <br> Lingkar Tangan : 48 cm <br> 4 Pilihan Warna : Teracota, Skyblue, Black, Mocca</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Gamis 6 -->
+    <div class="modal fade" id="gamis6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/pakaian wanita/gamis/gamis6.jpg" alt="gamis6" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Aespa Maxi Dress | Gamis wanita | Baju muslim | Pakaian wanita terbaru</h4>
+                            <h3>Rp 97.900</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>SIZE L <br>
+                                    LD - 104cm<br>
+                                    PB - 138cm<br>
+                                    SIZE XL<br>
+                                    LD - 110CM<br>
+                                    PB - 138CM<br>
+                                    bahan moscrepe<br>
+                                    ressleting depan ( busui )<br><br>
+                                    
+                                    Terima kasih!</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Gamis 7 -->
+    <div class="modal fade" id="gamis7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/pakaian wanita/gamis/gamis7.jpg" alt="gamis7" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Gamis Monalisa Polos Rempel 3 Susun Mayung 3 Meter Maxy</h4>
+                            <h3>Rp 70.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>Assalamualaikum ... <br> GAMIS MONALISA POLOS JUMBO PREMIUM BUSUI TERBARU MONALISA PAKAIAN WANITA Ini terbaru yu tambah koleksi nya , insya allah mempercantik tampilan sister dengan harga terjangkau dan pilihan warna yang banyak. GAMIS MONALISA <br><br> BAHAN : Monalisa BENTUK Maxy UKURAN GLOBAL meliputi 3 Ukuran M - L - XL M : <br> Ld 100 Cm <br> Pb 135 Cm <br> L : Ld 105 Cm <br> Pb 135 Cm <br> XL : Ld 110 Cm <br> Pb 135 Cm <br><br> jadi kaka pas nya ukuran apa bisa langsung chat admin kami ''''' kualitas yang kami utamakan makadari itu kami memproduksi sendiri DEMI MENJAGA KUALITAS NYA '''''' Panjang Lengan -/+ 57 cm .Muat Untuk BB Max -/+ 75 Kg Kemiripan Gambar -/+ 90% - Faktor Efek Cahaya Kamera Bisa Bayar di Tempat , Jahitan Rapih, Nyaman Dipakai, Cocok Untuk Segala Aktifitas, Model Kekinian,</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Gamis 8 -->
+    <div class="modal fade" id="gamis8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <img src="../img/pakaian wanita/gamis/gamis8.jpg" alt="gamis8" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4>Gamis Monalisa Polos</h4>
+                            <h3>Rp 88.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>Bahan Gamis : Monalisa great A <br>
+                                    No Kerudung<br>
+                                    Ukuran : All Size(Fit too XL)<br>
+                                    Lingkar Dada : 110cm<br>
+                                    Panjang Baju : 140 cm<br>
+                                    LingkarBawah : 3m<br>
+                                    Model Karet Belakang + Furing dan Rosleting Depan ( Cocok Untuk BUSUI )<br>
+                                    Cocok Untuk Segala Aktifitas<br>
+                                    Kantong Kiri dan Kanan serta Tangan Kancing Hidup<br>
+                                    Fashionable</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Keterangan -->
+    <div class="container mt-5">
+        <div class="keterangan d-flex justify-content-center">
+            <div class="row">
+                <h2 class="text-center">Jual Setelan Model Terbaru (Wanita, Batik, Kulot)</h2>
+                <p>KOLEKSI SETELAN TERBARU 2022</p>
+                <p>Kita mungkin sudah biasa melihat mode setelan yang itu-itu saja. Berbeda dengan YUANTHIO MARKETPLACE yang selalu menghadirkan berbagai macam brand yang meluncurkan beragam setelan dengan tampilan terbaru yang sudah pasti enak dipandang mata. Setelan memang jadi salah satu mode pakaian yang tengah ramai digunakan.Nama YUANTHIO MARKETPLACE memang sudah tak perlu diragukan lagi kualitasnya. YUANTHIO MARKETPLACE memang menampilkan berbagai macam setelan, hijab yang tak ketinggalan zaman. Ada berbagai macam aksen dan detail yang bisa membuat kegiatan berpakaian jadi lebih berkesan. Apalagi yang membuat setelan di YUANTHIO MARKETPLACE terlihat begitu menarik? Karena kualitas bahan dan desainnya yang modern, kamu bisa mendapatkan setelan yang unik dan tidak akan kamu temukan di tempat yang lain.</p>
+                <p>BERBAGAI MACAM SETELAN DI YUANTHIO MARKETPLACE</p>
+                <p>YUANTHIO MARKETPLACE menjadi tempat belanja pakaian yang namanya langsung melejit ketika memasuki pasaran. Hal ini sebenarnya wajar terjadi karena YUANTHIO MARKETPLACE selalu menampilkan brand-brand berkualitas tinggi dengan desain yang memikat pandangan. Berkat tampilannya yang beragam dan kaya akan warna, Anda akan selalu merasa nyaman ketika menggunakan beragam setelan yang ada di YUANTHIO MARKETPLACE. Setelan Di YUANTHIO MARKETPLACE juga dilengkapi dengan model-model yang sudah pasti tidak akan membuat Anda bosan ketika menggunakannya. Tak hanya modelnya, bahan material yang digunakan pada berbagai macam setelan ini juga sangat adem dan nyaman digunakan kapan pun dan dimana pun.Berbagai macam produk setelan yang dijual di YUANTHIO MARKETPLACE juga memiliki desain yang punya ciri khas tersendiri. Selain itu, kamu juga perlu memadukan setelan dengan sepatu atau tas yang kamu kenakan.</p>
+                <p>BELI ONLINE SETELAN DI YUANTHIO MARKETPLACE</p>
+                <p>Jika Anda tertarik untuk membeli salah satu koleksi setelan terbaru, Anda bisa langsung membelinya secara online dengan cepat dan mudah di YUANTHIO MARKETPLACE. YUANTHIO MARKETPLACE adalah toko online terbesar di Indonesia yang menyediakan berbagai macam mode pakaian terbaru yang unik dan tak mungkin ketinggalan zaman. YUANTHIO MARKETPLACE menyediakan beragam setelan dari brand-brand populer berkualitas tinggi. Maka dari itu, jangan ragu untuk membeli pakaian di YUANTHIO MARKETPLACE.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info -->
+    <section class="informasi">
+        <div class="container mt-5">
+            <div class="info">
+                <div class="row">
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Butuh Bantuan?</h5>
+                        <p>Senin - Jumat: 08:00 - 20:00 WIB
+                            Sabtu - Minggu / Libur Nasional: 11:00 - 20:00 WIB</p>
+                        <a href="" class="bold text-decoration-none"><i class="bi bi-envelope-fill"></i>
+                            yuanthiovirly@gmail.com</a><br>
+                        <a href="https://goo.gl/maps/M4Uyc4TiogZo5oTG9" class="bold text-decoration-none"><i class="bi bi-geo-alt-fill"></i> Kertamaya Bogor Selatan</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Sosial Media</h5>
+                        <a class=" bold text-decoration-none" href="https://www.facebook.com/yuanthio.thio"><i
+                                class="bi bi-facebook"></i> Facebook</a>
+                        <br>
+                        <a class=" bold text-decoration-none"
+                            href="https://www.instagram.com/mass_yuan/?next=%2F"><i class="bi bi-instagram"></i>
+                            Instagram</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Menu</h5>
+                        <a class=" bold text-decoration-none" href="">Pakaian Pria</a><br>
+                        <a class=" bold text-decoration-none" href="">Pakaian Wanita</a><br>
+                        <a class=" bold text-decoration-none" href="">Aksesoris Pria</a><br>
+                        <a class=" bold text-decoration-none" href="">Aksesoris Wanita</a><br>
+                        <a class=" bold text-decoration-none" href="">Artikel</a><br>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Akun</h5>
+                        <a class=" bold text-decoration-none" href=""><i class="bi bi-box-arrow-in-right"></i> Masuk
+                            Akun</a><br>
+                        <a class=" bold text-decoration-none" href=""> <i class="bi bi-pencil-fill"></i>
+                            Register</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <a class="btn" href="#" role="button"> <i class="bi bi-telephone-fill"></i> Hubungi Kami</a>
+                        <a class="btn" href="#" role="button"> <i class="bi bi-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer bg-dark text-light">
+            <p>&copy; copyright 2022. | built with Yuanthio Virly</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

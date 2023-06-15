@@ -1,0 +1,1635 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuanv Marketplace</title>
+    <link rel="stylesheet" href="../css/pakaian pria/celana.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/logo.png" alt="Logo" width="60" height="60">
+            </a>
+            <a class="navbar-brand" href="#">Yuanthio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pakaian Pria
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../pakaian pria/semua-pakaian-pria.html">Semua Pakaian Pria</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/stelan.html">Stelan</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/pakaian-olahraga.html">Pakaian
+                                        Olahraga</a></li>
+                                <li><a class="dropdown-item" href="../pakaian pria/baju.html">Baju</a></li>
+                                <li><a class="dropdown-item" href="#">Celana</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pakaian Wanita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../pakaian wanita/semua-pakaian-wanita.html">Semua Pakaian Wanita</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/stelan.html">Stelan</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/baju.html">Baju</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/celana.html">Celana</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/gamis.html">Gamis</a></li>
+                                <li><a class="dropdown-item" href="../pakaian wanita/hijab.html">Hijab</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="aksesoris.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aksesoris Pria
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../aksesoris/semua-aksesoris-pria.html">Semua Aksesoris Pria</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/sepatu.html">Sepatu</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/tas.html">Tas</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/topi.html">Topi</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/ikat-pinggang.html">Ikat Pinggang</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/kaos-kaki.html">Kaos Kaki</a></li>
+                                <li><a class="dropdown-item" href="../aksesoris/jam-tangan.html">Jam Tangan</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="aksesoris.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aksesoris Wanita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Semua Aksesoris Pria</a></li>
+                                <li><a class="dropdown-item" href="#">Sepatu</a></li>
+                                <li><a class="dropdown-item" href="#">Tas</a></li>
+                                <li><a class="dropdown-item" href="#">Bros</a></li>
+                                <li><a class="dropdown-item" href="#">Kalung</a></li>
+                                <li><a class="dropdown-item" href="#">Kaos Kaki</a></li>
+                                <li><a class="dropdown-item" href="#">Ikat Rambut</a></li>
+                                <li><a class="dropdown-item" href="#">Masker</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Artikel</a>
+                    </li>
+                </ul>
+                <a class="btn btn-info button" href="#" role="button">
+                    <img width="20px" height="20px" src="../img/masuk.png" alt="Login">
+                    Masuk Akun</a>
+                <a class="btn btn-info button" href="#" role="button">
+                    <img width="20px" height="20px" src="../img/register.png" alt="Register">
+                    Register</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Judul Halaman Celana-->
+    <section class="judul-halaman celana mb-3">
+        <div class="container">
+            <div class="judul mb-3">
+                <div class="row">
+                    <h2>Celana</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="menu-celana">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian pria/pakaian bawah/celana1.jpg" class="card-img-top" alt="Pakaian Atas1">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 56.000</h5>
+                            <p class="card-text">YANG LAGI HITS Celana Cargo Panjang Pria 28-38 Army Loreng Ufc Venum Mma Pantai Gym Lari Fitnes</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#celana1">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian pria/pakaian bawah/celana2.jpg" class="card-img-top" alt="Pakaian Atas2">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 196.800</h5>
+                            <p class="card-text">Celana Cargo Panjang Pria</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#celana2">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian pria/pakaian bawah/celana3.jpg" class="card-img-top" alt="Pakaian Atas3">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 171.400</h5>
+                            <p class="card-text">Celana Pria Panjang Celana Cargo Pria Slim Fit Hitam Celana Cowok Y7W5 - XL</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#celana3">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian pria/pakaian bawah/celana4.jpg" class="card-img-top" alt="Pakaian Atas4">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 165.000</h5>
+                            <p class="card-text">Celana Panjang Pria Cargo Abu Abu Stretch Basic Polos Celana Kargo Cowo - Navy, XL</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#celana4">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian pria/pakaian bawah/celana5.jpg" class="card-img-top" alt="Pakaian Atas5">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 148.900</h5>
+                            <p class="card-text">CELANA CARGO PANJANG HITAM / PDL</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#celana5">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian pria/pakaian bawah/celana6.jpg" class="card-img-top" alt="Pakaian Atas6">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 123.900</h5>
+                            <p class="card-text">Celana Cargo Pria Ukuran Besar 28-38/Celana Kargo Banyak Saku Terbaru - BLACK, 36</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#celana6">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian pria/pakaian bawah/celana7.jpg" class="card-img-top" alt="Pakaian Atas7">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 586.000</h5>
+                            <p class="card-text">Celana gunung celana kargo celana sambung Avaress celana consina celana Adventure</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#celana7">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="../img/pakaian pria/pakaian bawah/celana8.jpg" class="card-img-top" alt="Pakaian Atas8">
+                        <div class="card-body">
+                            <h5 class="card-title">Rp 158.000</h5>
+                            <p class="card-text">celana sambung celana gunung celana outdoor celana panjang avaress - Hitam, S</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#celana8">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Celana 1 -->
+    <div class="modal fade" id="celana1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <img src="../img/pakaian pria/pakaian bawah/celana1.jpg" alt="celana1" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>YANG LAGI HITS Celana Cargo Panjang Pria 28-38 Army Loreng Ufc Venum Mma Pantai Gym Lari Fitnes</h4>
+                            <h3>Rp 56.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>READY STOK ✔️✔️✔️🙏🙏🙏 <br><br>
+
+                                        Celana Cargo Panjang Pria <br>
+                                        MODEL SAKU KIMPUL TEMPEL <br><br>
+                                        
+                                        
+                                        kenapa harus beli celana di toko kami ?? 😁 <br><br>
+                                        
+                                        👕 kami pastikan barang  💯% realpict ya kak sesuai dengan aslinya<br>
+                                        👕 celana dengan standar distro premium tentunya<br>
+                                        👕 Bahan cotton twill sweding lembut dan tebal & tentunnya sangat nyaman saat dipakai<br> 
+                                        👕 sangat cocok untuk di pakai beraktifitas sehari2<br> 
+                                        👕 tersedia 6 saku pada bagian depan + belakang & bagian samping menambah kesan sporty<br><br> 
+                                        
+                                        
+                                        Warna yang tersedia :<br>
+                                         - GREY<br>
+                                         - MOCCA<br>
+                                        - HITAM<br>
+                                        - CREAM<br>
+                                        - ARMY<br><br>
+                                        
+                                        SIZE / UKURAN LINGKAR PINGGANG:<br>
+                                        size 27 lingkar pinggang 69 cm <br>
+                                        size 28 lingkar pinggang 71 cm <br>
+                                        size 29 lingkar pinggang 73 cm <br>
+                                        size 30 lingkar pinggang 76 cm <br>
+                                        size 31 lingkar pinggang 79 cm <br>
+                                        size 32 lingkar pinggang 83 cm <br>
+                                        size 33 lingkar pinggang 85 cm <br>
+                                        size 34 lingkar pinggang 87 cm <br>
+                                         size 35 lingkar pinggang 89 cm <br>
+                                        size 36 lingkar pinggang 91cm <br>
+                                        size 37 lingkar pinggang 93 cm <br>
+                                        size 38 lingkar pinggang 95 cm <br><br>
+                                        
+                                        catatan pembeli :<br>
+                                        - Belanja aman dan nyaman<br>
+                                        - Pastikan warna dan ukuran sebelum memesan agar tidak terjadi kesalahan pengiriman<br>
+                                        - Sertakan alamat lengkap, barang yang diorder + size ketika melakukan pemesanan<br>
+                                        -reseller welcome banget & Dropship aman<br><br>
+                                        
+                                        #SELAMAT BERBELANJA AMAN & HAPPY SHOPPING</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Celana 2 -->
+    <div class="modal fade" id="celana2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <img src="../img/pakaian pria/pakaian bawah/celana2.jpg" alt="celana2" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Celana Cargo Panjang Pria</h4>
+                            <h3>Rp 196.800</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>BArang ready kak <br><br> 
+
+                                        Celana Cargo Panjang Pria<br><br>
+                                        
+                                        👕 celana dengan standar distro premium tentunya<br>
+                                        👕 Bahan cotton  lembut dan tebal & tentunnya sangat nyaman saat dipakai<br>
+                                        👕 sangat cocok untuk di pakai beraktifitas sehari2<br> 
+                                        👕 tersedia 6 saku pada bagian depan + belakang & bagian samping menambah kesan sporty<br><br> 
+                                        
+                                        Warna yang tersedia :<br>
+                                        - ABU<br>
+                                        - MOCCA<br>
+                                        - HITAM<br>
+                                        - CREAM<br>
+                                        - ARMY<br><br>
+                                        
+                                        KETERANGAN UKURAN<br> 
+                                        SIZE / UKURAN LINGKAR PINGGANG:<br>
+                                        size 27 lingkar pinggang 69 cm<br> 
+                                        size 28 lingkar pinggang 72 cm<br>
+                                        size 29 lingkar pinggang 75 cm<br>
+                                        size 30 lingkar pinggang 78 cm<br> 
+                                        size 31 lingkar pinggang 81 cm<br> 
+                                        size 32 lingkar pinggang 83 cm<br> 
+                                        size 33 lingkar pinggang 86 cm<br>
+                                        size 34 lingkar pinggang 89 cm<br> 
+                                        size 35 lingkar pinggang 92 cm<br>
+                                        size 36 lingkar pinggang 95cm<br>
+                                        size 37 lingkar pinggang 98 cm<br>
+                                        size 38 lingkar pinggang 100 cm<br>
+                                        Panjang celana 95-99cm (Panjang celana menyesuaikan size)<br><br>
+                                        
+                                        catatan pembeli :<br>
+                                        - Belanja aman dan nyaman<br>
+                                        - Pastikan warna dan ukuran sebelum memesan agar tidak terjadi kesalahan pengiriman<br>
+                                        - Sertakan alamat lengkap, barang yang diorder + size ketika melakukan pemesanan<br>
+                                        -reseller welcome banget & Dropship aman</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Celana 3 -->
+    <div class="modal fade" id="celana3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <img src="../img/pakaian pria/pakaian bawah/celana3.jpg" alt="celana3" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Celana Pria Panjang Celana Cargo Pria Slim Fit Hitam Celana Cowok Y7W5 - XL</h4>
+                            <h3>Rp 171.400</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>SELAMAT DATANG DI TOKO KAMI <br>
+                                        BARANG BERKUALITAS DENGAN HARGA BERSAHABAT <br>
+                                        ~ REAL PICT<br>
+                                        ~ SEMUA PRODUK READY STOCK<br>
+                                        ~ PENGIRIMAN SENIN - SABTU<br>
+                                        ~ ORDER SEBELUM JAM 16.00 DIKIRIM HARI YANG SAMA<br>
+                                        WELCOME RESELLER DAN DROPSHIPER<br>
+                                        ORDER SEBELUM JAM 3 LANGSUNG KAMI KIRIM<br>
+                                        MINGGU DAN TANGGAL MERAH LIBUR PENGIRIMAN<br>
+                                        SELAMAT BERBELANJA<br><br>
+                                        
+                                        GESER PHOTO UNTUK DETAIL PRODUK<br><br>
+                                        
+                                        MATERIAL : FULL COTTON TWILL<br><br>
+                                        
+                                        JAHITAN : FULL RANTAI DAN OVERDEK<br><br>
+                                        
+                                        SLETING : YKK<br><br>
+                                        
+                                        SIZE :<br>
+                                        P (PANJANG) LP (LINGKAR PINGGANG)<br><br>
+                                        
+                                        S = 27-28 ( P 104cm LP 70cm)<br>
+                                        M = 29-30 (P 105cm LP 74cm)<br>
+                                        L = 31-32 (P 107cm LP 80cm)<br>
+                                        XL = 33-34 (P 108cm LP 82cm)<br><br>
+                                        
+                                        BERAT : 530 - 600 gram<br><br>
+                                        
+                                        BAHAN : FULL COTTON TWILL IMPOR (BUKAN TWILL MURAHAN)<br><br>
+                                        
+                                        BAHAN ADEM DAN LEMBUT SANGAT NYAMAN KTIKA DIGUNAKAN<br>
+                                        TIDAK MUDAH BERBULU DAN TIDAK KASAR<br>
+                                        
+                                        Kent menyediakan produk dengan kualitas terbaik, bahan terbaik, serta jahitan yang terbaik,<br>
+                                        Karna bagi kami kepuasan pelanggan menjadi tujuan utama bagi kami<br><br>
+                                        
+                                        Apabila terjadi kesalahan dapat di retur dan ongkir 100% kami tanggung<br><br>
+                                        
+                                        FREE GELANG 1PCS DAN AKSESORIS UNTUK TIAP PRODUK (TIDAK BISA REQUEST WARNA, BENTUK DLL)<br><br>
+                                        
+                                        #celana #celanajeans #jeans #grosircelana #celanamurah</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Celana 4 -->
+    <div class="modal fade" id="celana4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <img src="../img/pakaian pria/pakaian bawah/celana4.jpg" alt="celana4" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Clana Panjang Pria Cargo Abu Abu Stretch Basic Polos Celana Kargo Cowo - Navy, XL</h4>
+                            <h3>Rp 165.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>Celana Panjang Cargo Pria Slimfit Hijau Army <br>
+                                        PREMIUM<br><br>
+                                        
+                                        Baca Dulu Ya KAKAK :)<br><br>
+                                        
+                                        Material : COTTON TWILL<br><br>
+                                        
+                                        Model : Slimfit / SLIM FIT / STRETCH / PENSIL<br><br>
+                                        
+                                        • Size chart :<br>
+                                        S = 27-28 (Lingkar Pinggang=80cm) (Panjang Celana=98cm).<br>
+                                        M = 29-30 (Lingkar Pinggang=84cm) (Panjang Celana =99cm).<br>
+                                        L = 31-32 (Lingkar Pinggang=88cm) (Panjang Celana =100cm).<br>
+                                        XL = 33-34 (Lingkar Pinggang=92cm) (Panjang Celana =101cm).<br>
+                                        
+                                        • Perkiraan Tinggi dan Berat Badan :<br><br>
+                                        
+                                        S (27-28) = Tinggi Badan 150cm - 165cm | Berat Badan 40kg - 55kg<br>
+                                        M (29-30)= Tinggi Badan 150cm - 175cm | Berat Badan 50kg - 60kg<br>
+                                        L (31-32) = Tinggi Badan 160cm - 185cm | Berat Badan 55kg - 75kg<br>
+                                        XL (33-34) = Tinggi Badan 165cm - 190cm | Berat Badan 65kg - 90kg<br><br>
+                                        
+                                        • READY STOCK .....!!!!<br>
+                                        Langsung Order yah kak :)<br>
+                                        Jadi ngga perlu kakak bertanya Ready atau tidak nya<br>
+                                        • Disarankan memilih size lebih besar dr size yg biasa dipakai, karena produk kami memakai pola size lokal.<br>
+                                        • Tidak perlu menanyakan resi, karna kami menggunakan resi otomatis. Utk mengetahui resi, silahkan cek secara berkala pada pesanan anda setelah pukul 23:00 WIB.<br><br>
+                                        
+                                        CARA PESAN :<br>
+                                        Silahkan Via TOKOPEDIA<br><br>
+                                        
+                                        Bukan Reseller dan Dropship<br>
+                                        • Pesan di Hari Kerja langsung di kirim di hari yang sama<br>
+                                        • Tangan Pertama<br><br>
+                                        
+                                        PENGIRIMAN :<br>
+                                        • Batas Order Jam 16.00 ( Di kirim hari yang sama )<br>
+                                        Lewat dari jam 16.00 akan di kirim esok hari nya<br><br>
+                                        
+                                        NOTE :<br>
+                                        • Pastikan menulis warna dan ukuran yang akan di pesan di kolom keterangan<br>
+                                        • Pelisih warna dari fato sekitar 0-1% pengaruh kamera,pencahayaan,dan setingan komputer/handphone masing-masing<br>
+                                        • APABILA MAU MELIHAT MODEL LAIN SILAHKAN SAJA MASUK KE DAFTAR PRODUK KAMI DI ETALASE PRODUK , BARANG YANG MASIH TERCANTUM DI LAPAK KAMI BERARTI MASIH TERSEDIA,<br>
+                                        • JANGAN LUPA FOLLOW DAN JADIKAN TOKO FAVORITE ANDA , AGAR DAPAT CEK SELALU BARANG TERUPDATE DARI TOKO KAMI :)</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Celana 5 -->
+    <div class="modal fade" id="celana5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <img src="../img/pakaian pria/pakaian bawah/celana5.jpg" alt="celana5" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>CELANA CARGO PANJANG HITAM / PDL</h4>
+                            <h3>Rp 148.900</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>SIZE 28-34 <br><br>
+
+                                        Dalam SMLXL, berikut keterangannya :<br>
+                                        S : 27/28 Panjang : 90cm Lingkar pinggang: 58 - 60 cm<br>
+                                        M : 29/30 Panjang : 92cm Lingkar pinggang: 66 - 68 cm<br>
+                                        L : 31/32 Panjang : 96cm Lingkar pinggang: 74 - 76 cm<br>
+                                        XL : 33/34 Panjang : 98cm Lingkar pinggang: 78 - 80 cm<br><br>
+                                        
+                                        Bahan: Katun Twill<br><br>
+                                        
+                                        Warna :HITAM</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Celana 6 -->
+    <div class="modal fade" id="celana6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <img src="../img/pakaian pria/pakaian bawah/celana6.jpg" alt="celana6" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Celana Cargo Pria Ukuran Besar 28-38/Celana Kargo Banyak Saku Terbaru - BLACK, 36</h4>
+                            <h3>Rp 123.900</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>CELANA CARGO PANJANG PRIA <br><br>
+
+                                        BRAND : BLESSINGS<br>
+                                        Bahan : Katun Kombad Twill<br>
+                                        Bahan Adem Tebal Lembut Tidak Kaku Nyaman Dipakai<br>
+                                        100% Realfcit Sesuai Gambar<br>
+                                        Size : 28 -38<br>
+                                        Model Cargo Skinny<br>
+                                        Free Stiker Dan Gelang Selama Persediaan Masih Ada<br>
+                                        Feshionable, Keren , Simple<br>
+                                        Produck Dalam Negri Asli Bandung<br>
+                                        Best Seller<br><br>
+                                        
+                                        VARIAN WARNA<br>
+                                        1. Black<br>
+                                        2. Mocca<br>
+                                        3. Cream<br>
+                                        4 Grey<br>
+                                        5. Navy Blue<br>
+                                        6. Hijau Army<br><br>
+                                        
+                                        DETAIL SIZE CELANA PANJANG CARGO<br><br>
+                                        
+                                        28 : Lingkar Pinggang 77 Cm<br>
+                                        29 : Lingkar Pinggang 80 Cm<br>
+                                        30 : Lingkar Pinggang 83 Cm<br>
+                                        31 : Lingkar Pinggang 86 Cm<br>
+                                        32 : Lingkar Pinggang 88 Cm<br>
+                                        33 : Lingkar Pinggang 90 Cm<br>
+                                        34 : Lingkar Pinggang 92 Cm<br>
+                                        35 : Lingkar Pinggang 94 Cm<br>
+                                        36 : Lingkar Pinggang 96 Cm<br>
+                                        37 : Lingkar Pinggang 98 Cm<br>
+                                        38 : Lingkar Pinggang 100 Cm<br><br>
+                                        
+                                        PILIH SIZE WARNA DAN TULIS CATATAN SAAT PEMBELAIN<br><br>
+                                        
+                                        CEK JUGA DI ETALASE KAMI UNTUK VARIAN PRODUCK KEREN LAINNYA<br><br>
+                                        
+                                        HEPPY SHOPPYNG ^.^</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Celana 7 -->
+    <div class="modal fade" id="celana7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <img src="../img/pakaian pria/pakaian bawah/celana7.jpg" alt="celana7" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Celana gunung celana kargo celana sambung Avaress celana consina celana Adventure</h4>
+                            <h3>Rp 586.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>CELANA GUNUNG AVARESS CELANA KARGO CELANA SAMBUNG <br><br>
+
+                                        Spesifikasi : bahan QUICKDRY<br><br>
+                                        
+                                        Ukuran. : S,M , L , XL<br><br>
+                                        
+                                        bisa dipotong menjadi Celana pendek Jahitan rapih<br><br>
+                                        
+                                        Tersedia varian warna<br><br>
+                                        
+                                        1. HITAM ( SIZE S,M dan L)<br>
+                                        2. ABU ABU ( SIZE S,M,L,XL)<br>
+                                        3. COKLAT SUSU (S,M,L,XL)<br><br>
+                                        
+                                        Mohon dibaca Ukuran yang tersedia di masing2 warna, agar tidak terjadi kesalahan.ukuran celana berpatokan ukuran celana jeans<br><br>
+                                        
+                                        ukuran S = setara 27-28<br>
+                                        ukuran M = setara 29 - 30<br>
+                                        ukuran L = setara 31 - 32<br>
+                                        ukuran XL = setara 33 - 34</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Celana 8 -->
+    <div class="modal fade" id="celana8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row justify-content-end">
+                        <button type="button" class="btn-close mb-3 mx-2" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <img src="../img/pakaian pria/pakaian bawah/celana8.jpg" alt="celana8" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>celana sambung celana gunung celana outdoor celana panjang avaress - Hitam, S</h4>
+                            <h3>Rp 158.000</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengiriman.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengiriman Cepat</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px" src="../img/pakaian pria/modal/pengembalian.png"
+                                            alt="" class="img-fluid">
+                                        <p>Pengembalian Gratis Dalam 7 Hari</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img width="40px" height="40px"
+                                            src="../img/pakaian pria/modal/pembayaran-aman.png" alt=""
+                                            class="img-fluid">
+                                        <p>Pembayaran Aman</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#pilihanPengiriman" aria-expanded="false"
+                                            aria-controls="pilihanPengiriman"><i class="bi bi-list"></i></i>
+                                            Pilihan Pengiriman
+                                        </button>
+                                    </p>
+                                    <div class="collapse acr1" id="pilihanPengiriman">
+                                        <div class="card card-body">
+                                            <div class="row bg-light p-2">
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jne.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/jnt.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/sicepat.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/pos_indonesia.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/ninja_express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/wahana express.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/indah_logistik.png" class="img-fluid"
+                                                        width="70px" height="70px" alt="">
+                                                </div>
+                                                <div
+                                                    class="col-lg-4 col-md-6 col-6 d-flex justify-content-center align-items-center mb-4">
+                                                    <img src="../img/modal/tiki.png" class="img-fluid" width="70px"
+                                                        height="70px" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <p>
+                                        <button class="btn black" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="bi bi-pencil"></i>
+                                            Catatan
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <div>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Silahkan tulis catatan"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-dark text-uppercase"><i class="bi bi-cart"></i>
+                                                Beli Sekarang</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="d-grid gap-2">
+                                            <a href="" class="btn btn-primary text-uppercase" data-bs-dismiss="modal"><i
+                                                    class="bi bi-basket"></i> Masukan Keranjang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <h5>Detail Produk</h5>
+                                    <p>Berikut deskripsi produk yang wajib dibaca sebelum order. <br>
+                                        * BAHAN DESBO WAPER, QUICK DRY, CEPET KERING, MELAR, ELASTIS BAHAN CAMPUR YA KA. ADA YG WATER REPELLEN ADA YG ENGGA...
+                                        WF / KAYA DAUN TALAS / WATER REPELLEN.<br>
+                                        * Pinggang karet samping kiri dan kanan *<br><br>
+                                        
+                                        TERIMA KASIH<br>
+                                        telah memilih produk kami. selalu membuat produk yg inovatif, nyaman dan sesuai fungsi, menjadikan kami selalu berusaha membuat produk yang terbaik bagi anda,<br><br>
+                                        
+                                        spesification :<br>
+                                        matrial desbo waper stretch ( sedang )<br><br>
+                                        
+                                        Caracter :<br>
+                                        stretch, aerodinamis, breathable, Quick dry.<br><br>
+                                        
+                                        sangat nyaman di pakai untuk segala aktivitas. ( cowo maupun cewe )<br><br>
+                                        
+                                        * AVARESS SAMBUNG TIPE EXVASE *<br>
+                                        { READY WARNA }<br>
+                                        * hitam<br>
+                                        * abu abu<br>
+                                        * cream / warna kerdus. kosong<br>
+                                        * nevy / biru dongker.<br><br>
+                                        
+                                        
+                                        * 4 kantong depan<br>
+                                        * 1 kantong belakang di lengkapi zipper.<br>
+                                        terpasang karet di samping kiri dn kanan.<br><br>
+                                        
+                                        READY SIZE.<br>
+                                        Lingkar pinggang,<br><br>
+                                        
+                                        S setara no ( 28 _ 29 )<br>
+                                        M setara no ( 30 _ 31 )<br>
+                                        L setara no ( 32 _ 33 )<br>
+                                        XL setara no ( 34 _ 35)<br><br>
+                                        
+                                        Ornamen<br>
+                                        zipper ykk<br><br>
+                                        
+                                        SALAM KENAL KA.<br>
+                                        ENJOOYYY..<br>
+                                        SELAMAT BERBELANJAAA...<br>
+                                        Barang ready , beli banyak dapat diskon.<br><br>
+                                        
+                                        SKU : 3131/1188889904716365824/55</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Keterangan -->
+    <div class="container mt-5">
+        <div class="keterangan d-flex justify-content-center">
+            <div class="row">
+                <h2 class="text-center">Jual Stelan Pria Model Terbaru & Pakaian Olahraga</h2>
+                <p>KOLEKSI BAJU PRIA TERBARU 2022</p>
+                <p>Berpakaian dengan penuh gaya telah jadi kebutuhan semua orang, termasuk para pria. Hal inilah yang membuat tren fashion menswear kian berkembang pesat. Kini, para pria tidak hanya sekedar berbusana saja, beberapa dari mereka telah menganggap style berpakaian sebagai bagian dari identitas dirinya. Model baju pria juga semakin hari semakin berkembang. Kalau dulu pria biasanya hanya mengenakan t-shirt dan kemeja, sekarang ini para pria bisa tampil lebih stylish dengan berbagai macam baju yang kekinian.
+                Tak hanya pada baju biasa, perkembangan style pada baju pria juga terjadi pada baju muslim. Baju muslim pria kini sudah hadir dengan model yang jauh lebih modern dan bisa dibilang mengikuti perkembangan zaman. Baju pria terbaik bisa kamu dapatkan di Yuanthio Marketplace. Yuanthio Marketplace menyediakan berbagai macam model dan desain baju pria dari beragam brand yang bisa kamu pilih sesuai keinginan serta tak perlu diragukan lagi kualitasnya.</p>
+                <p>BELI BAJU PRIA ONLINE DI YUANTHIO MARKETPLACE</p>
+                <p>Jika kamu tertarik untuk membeli salah satu koleksi baju pria terbaru, kamu bisa langsung membelinya secara online dengan mudah di Yuanthio Marketplace. Di Yuanthio Marketplace kamu juga bisa sekalian membeli jaket yang cocok dengan baju pria yang kamu mau. YUANTHIO MARKETPLACE adalah toko online terbesar di Indonesia yang menyediakan berbagai macam mode fashion baju pria terbaru. Yuanthio Marketplace juga menyediakan beragam baju pria dari brand-brand popular berkualitas tinggi untuk menjamin penampilanmu sehari-hari. Maka dari itu, jangan ragu untuk membeli baju atau baju muslim pria di Yuanthio Marketplace.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info -->
+    <section class="informasi">
+        <div class="container mt-5">
+            <div class="info">
+                <div class="row">
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Butuh Bantuan?</h5>
+                        <p>Senin - Jumat: 08:00 - 20:00 WIB
+                            Sabtu - Minggu / Libur Nasional: 11:00 - 20:00 WIB</p>
+                        <a href="" class="bold text-decoration-none"><i class="bi bi-envelope-fill"></i>
+                            yuanthiovirly@gmail.com</a><br>
+                        <a href="https://goo.gl/maps/M4Uyc4TiogZo5oTG9" class="bold text-decoration-none"><i class="bi bi-geo-alt-fill"></i> Kertamaya Bogor Selatan</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Sosial Media</h5>
+                        <a class=" bold text-decoration-none" href="https://www.facebook.com/yuanthio.thio"><i
+                                class="bi bi-facebook"></i> Facebook</a>
+                        <br>
+                        <a class=" bold text-decoration-none"
+                            href="https://www.instagram.com/mass_yuan/?next=%2F"><i class="bi bi-instagram"></i>
+                            Instagram</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Menu</h5>
+                        <a class=" bold text-decoration-none" href="">Pakaian Pria</a><br>
+                        <a class=" bold text-decoration-none" href="">Pakaian Wanita</a><br>
+                        <a class=" bold text-decoration-none" href="">Aksesoris Pria</a><br>
+                        <a class=" bold text-decoration-none" href="">Aksesoris Wanita</a><br>
+                        <a class=" bold text-decoration-none" href="">Artikel</a><br>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Akun</h5>
+                        <a class=" bold text-decoration-none" href=""><i class="bi bi-box-arrow-in-right"></i> Masuk
+                            Akun</a><br>
+                        <a class=" bold text-decoration-none" href=""> <i class="bi bi-pencil-fill"></i>
+                            Register</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <a class="btn" href="#" role="button"> <i class="bi bi-telephone-fill"></i> Hubungi Kami</a>
+                        <a class="btn" href="#" role="button"> <i class="bi bi-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer bg-dark text-light">
+            <p>&copy; copyright 2022. | built with Yuanthio Virly</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

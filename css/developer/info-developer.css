@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Global */
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    opacity: .9;
+}
+
+.navbar li:nth-child(5) {
+    font-weight: bold;
+    font-size: large;
+}
+
+.navbar li:hover {
+    background-color: rgb(8, 121, 152);
+}
+
+.navbar li:nth-child(1) {
+    border-bottom: 3px solid rgb(8, 121, 152);
+}
+
+.navbar li a {
+    font-family: 'Mali', cursive;
+}
+
+.navbar li {
+    margin: 0 20px;
+    border-radius: 30px 30px 0 0 ;
+    padding: 5px;
+}
+
+.navbar .container {
+    border-bottom: 3px solid white;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Mali', cursive;
+    font-size: 25px;
+}
+
+/* Header */
+.headers {
+    margin-top: 150px;
+}
+
+.headers p {
+    font-size: 24px;
+}
+
+.headers h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+/* Menu */
+.menu .card, .card-body {
+    overflow: hidden;
+    position: relative;
+}
+
+.menu img {
+    transition: .5s;
+}
+
+.menu img:hover {
+    transform: scale(1.1);
+}
+
+.menu h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Cerita Singkat */
+.cerita-singkat p {
+    font-size: 24px;
+}
+
+.cerita h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Sub Footer */
+.footers h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.sub-footer .Courgette {
+    font-family: 'Courgette', cursive;
+}
+
+.sub-footer p {
+    font-size: 24px;
+}
+
+.sub-footer a:hover{
+    text-decoration: none;
+}
+
+.to-top {
+    width: 20%;
+}
+
+.background .row {
+    height: 40px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.background p {
+    font-size: 17px;
+}
+
+/* Footer */
+.footer {
+    background-color: white;
+    padding-top: 17px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.footer p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .to-top {
+        width: 45%;
+    }
+
+    .navbar .btn {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar .navbar-nav li {
+        margin-bottom: 10px;
+    }
+
+    .navbar li {
+        border-radius: 0;
+        padding: 5px;
+    }
+}

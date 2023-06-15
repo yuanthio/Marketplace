@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuanv Marketplace</title>
+    <link rel="stylesheet" href="css/artikel.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="60" height="60">
+            </a>
+            <a class="navbar-brand" href="#">Yuanthio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pakaian Pria
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pakaian pria/semua-pakaian-pria.html">Semua Pakaian
+                                        Pria</a></li>
+                                <li><a class="dropdown-item" href="pakaian pria/stelan.html">Stelan</a></li>
+                                <li><a class="dropdown-item" href="pakaian pria/pakaian-olahraga.html">Pakaian
+                                        Olahraga</a></li>
+                                <li><a class="dropdown-item" href="pakaian pria/pakaian-atas.html">Baju</a></li>
+                                <li><a class="dropdown-item" href="pakaian pria/pakaian-bawah.html">Celana</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pakaian Wanita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pakaian wanita/semua-pakaian-wanita.html">Semua
+                                        Pakaian Wanita</a></li>
+                                <li><a class="dropdown-item" href="pakaian wanita/stelan.html">Stelan</a></li>
+                                <li><a class="dropdown-item" href="pakaian wanita/baju.html">Baju</a></li>
+                                <li><a class="dropdown-item" href="pakaian wanita/celana.html">Celana</a></li>
+                                <li><a class="dropdown-item" href="pakaian wanita/gamis.html">Gamis</a></li>
+                                <li><a class="dropdown-item" href="pakaian wanita/hijab.html">Hijab</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="aksesoris.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Aksesoris Pria
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="aksesoris/semua-aksesoris-pria.html">Semua Aksesoris
+                                        Pria</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/sepatu.html">Sepatu</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/tas.html">Tas</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/topi.html">Topi</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/ikat-pinggang.html">Ikat Pinggang</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/kaos-kaki.html">Kaos Kaki</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/jam-tangan.html">Jam Tangan</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="aksesoris.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Aksesoris Wanita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="aksesoris wanita/semua-aksesoris-wanita.html">Semua
+                                        Aksesoris Wanita</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/sepatu.html">Sepatu</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/tas.html">Tas</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/bros.html">Bros</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/kalung.html">Kalung</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/kaos-kaki.html">Kaos Kaki</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/ikat-rambut.html">Ikat Rambut</a>
+                                </li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/masker.html">Masker</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Artikel</a>
+                    </li>
+                </ul>
+                <a class="btn btn-info button" href="#" role="button">
+                    <img width="20px" height="20px" src="img/masuk.png" alt="Login">
+                    Masuk Akun</a>
+                <a class="btn btn-info button" href="#" role="button">
+                    <img width="20px" height="20px" src="img/register.png" alt="Register">
+                    Register</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Judul utama -->
+    <div class="container">
+        <div class="judul-utama text-center">
+            <div class="row">
+                <h1>Artikel</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Artikel -->
+    <div class="container menu-artikel">
+        <div class="artikel">
+            <h2>Fashion</h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/fashion/fashion1.jpg" class="card-img-top" alt="Fashion1">
+                            <div class="card-body">
+                                <h5 class="card-title">6 Rekomendasi Model Sepatu Sandal Wanita Kekinian untuk Remaja
+                                </h5>
+                                <p class="card-text">Oktober 05 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/fashion/fashion2.png" class="card-img-top" alt="Fashion2">
+                            <div class="card-body">
+                                <h5 class="card-title">5 Inspirasi OOTD Rompi Rajut Wanita Hijab</h5>
+                                <p class="card-text">Oktober 09 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/fashion/fashion3.jpeg" class="card-img-top" alt="Fashion3">
+                            <div class="card-body">
+                                <h5 class="card-title">6 Rekomendasi Jilbab Segi Empat Motif Branded</h5>
+                                <p class="card-text">Oktober 11 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/fashion/fashion4.jpg" class="card-img-top" alt="Fashion4">
+                            <div class="card-body">
+                                <h5 class="card-title">Rekomendasi OOTD Kemeja Hitam Cowok Bisa Bikin Kamu Lebih Kece
+                                </h5>
+                                <p class="card-text">Oktober 17 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/fashion/fashion5.jpg" class="card-img-top" alt="Fashion5">
+                            <div class="card-body">
+                                <h5 class="card-title">Rekomendasi Outfit Cowok Kuliah</h5>
+                                <p class="card-text">Oktober 25 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/fashion/fashion6.jpg" class="card-img-top" alt="Fashion6">
+                            <div class="card-body">
+                                <h5 class="card-title">Rekomendasi Outfit Pria Keren</h5>
+                                <p class="card-text">Oktober 30 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        
+
+            <h2 class="mt-5">Inspirasi</h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/inspirasi/inspirasi1.jpg" class="card-img-top" alt="Inspirasi1">
+                            <div class="card-body">
+                                <h5 class="card-title">Ini Dia Alasan Kenapa Kita Harus Pakai Dua Masker</h5>
+                                <p class="card-text">November 02 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/inspirasi/inspirasi2.jpg" class="card-img-top" alt="Inspirasi2">
+                            <div class="card-body">
+                                <h5 class="card-title">Cara Mencuci Masker Kain</h5>
+                                <p class="card-text">November 07 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/inspirasi/inspirasi3.jpg" class="card-img-top" alt="Inspirasi3">
+                            <div class="card-body">
+                                <h5 class="card-title">Ini Dia Asal Mula Hari Hijab Sedunia</h5>
+                                <p class="card-text">November 14 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/inspirasi/inspirasi4.jpg" class="card-img-top" alt="Inspirasi4">
+                            <div class="card-body">
+                                <h5 class="card-title">Tips Menghilangkan Noda Pakaian</h5>
+                                <p class="card-text">November 24 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/inspirasi/inspirasi5.jpg" class="card-img-top" alt="Inspirasi5">
+                            <div class="card-body">
+                                <h5 class="card-title">Cara Menghitung Berat Badan Ideal</h5>
+                                <p class="card-text">November 28 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/inspirasi/inspirasi6.jpg" class="card-img-top" alt="Inspirasi6">
+                            <div class="card-body">
+                                <h5 class="card-title">Mugwort, Tanaman Herbal Kaya Manfaat</h5>
+                                <p class="card-text">Desember 02 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <h2 class="mt-5">Kecantikan</h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/kecantikan/kecantikan1.jpg" class="card-img-top" alt="Kecantikan1">
+                            <div class="card-body">
+                                <h5 class="card-title">5 Cara Menghilangkan Komedo</h5>
+                                <p class="card-text">September 07 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/kecantikan/kecantikan2.jpg" class="card-img-top" alt="Kecantikan2">
+                            <div class="card-body">
+                                <h5 class="card-title">Manfaat Konsumsi Sayur Hijau bagi Kulit</h5>
+                                <p class="card-text">November 11 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/kecantikan/kecantikan3.jpg" class="card-img-top" alt="Kecantikan3">
+                            <div class="card-body">
+                                <h5 class="card-title">Mengecilkan Pori-Pori Wajah dengan Mentimun</h5>
+                                <p class="card-text">September 14 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/kecantikan/kecantikan4.jpg" class="card-img-top" alt="Kecantikan4">
+                            <div class="card-body">
+                                <h5 class="card-title">5 Cara Merawat Wajah Berminyak</h5>
+                                <p class="card-text">September 20 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/kecantikan/kecantikan5.jpg" class="card-img-top" alt="Kecantikan5">
+                            <div class="card-body">
+                                <h5 class="card-title">Manfaat Buah Bagi Kecantikan</h5>
+                                <p class="card-text">September 25 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <a href="">
+                        <div class="card">
+                            <img src="img/artikel/kecantikan/kecantikan6.jpg" class="card-img-top" alt="Kecantikan6">
+                            <div class="card-body">
+                                <h5 class="card-title">5 Tips Mencerahkan Bibir yang Hitam</h5>
+                                <p class="card-text">September 29 2022</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info -->
+    <section class="informasi">
+        <div class="container mt-5">
+            <div class="info">
+                <div class="row">
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Butuh Bantuan?</h5>
+                        <p>Senin - Jumat: 08:00 - 20:00 WIB
+                            Sabtu - Minggu / Libur Nasional: 11:00 - 20:00 WIB</p>
+                        <a href="" class="bold text-decoration-none"><i class="bi bi-envelope-fill"></i>
+                            yuanthiovirly@gmail.com</a><br>
+                        <a href="https://goo.gl/maps/M4Uyc4TiogZo5oTG9" class="bold text-decoration-none"><i class="bi bi-geo-alt-fill"></i> Kertamaya Bogor Selatan</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Sosial Media</h5>
+                        <a class=" bold text-decoration-none" href="https://www.facebook.com/yuanthio.thio"><i
+                                class="bi bi-facebook"></i> Facebook</a>
+                        <br>
+                        <a class=" bold text-decoration-none"
+                            href="https://www.instagram.com/mass_yuan/?next=%2F"><i class="bi bi-instagram"></i>
+                            Instagram</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Menu</h5>
+                        <a class=" bold text-decoration-none" href="">Pakaian Pria</a><br>
+                        <a class=" bold text-decoration-none" href="">Pakaian Wanita</a><br>
+                        <a class=" bold text-decoration-none" href="">Aksesoris Pria</a><br>
+                        <a class=" bold text-decoration-none" href="">Aksesoris Wanita</a><br>
+                        <a class=" bold text-decoration-none" href="">Artikel</a><br>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Akun</h5>
+                        <a class=" bold text-decoration-none" href=""><i class="bi bi-box-arrow-in-right"></i> Masuk
+                            Akun</a><br>
+                        <a class=" bold text-decoration-none" href=""> <i class="bi bi-pencil-fill"></i>
+                            Register</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <a class="btn" href="#" role="button"> <i class="bi bi-telephone-fill"></i> Hubungi Kami</a>
+                        <a class="btn" href="#" role="button"> <i class="bi bi-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer bg-dark text-light">
+            <p>&copy; copyright 2022. | built with Yuanthio Virly</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

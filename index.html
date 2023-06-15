@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuanv Marketplace</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="60" height="60">
+            </a>
+            <a class="navbar-brand" href="#">Yuanthio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pakaian Pria
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pakaian pria/semua-pakaian-pria.html">Semua Pakaian Pria</a></li>
+                                <li><a class="dropdown-item" href="pakaian pria/stelan.html">Stelan</a></li>
+                                <li><a class="dropdown-item" href="pakaian pria/pakaian-olahraga.html">Pakaian Olahraga</a></li>
+                                <li><a class="dropdown-item" href="pakaian pria/pakaian-atas.html">Baju</a></li>
+                                <li><a class="dropdown-item" href="pakaian pria/pakaian-bawah.html">Celana</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pakaian Wanita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pakaian wanita/semua-pakaian-wanita.html">Semua Pakaian Wanita</a></li>
+                                <li><a class="dropdown-item" href="pakaian wanita/stelan.html">Stelan</a></li>
+                                <li><a class="dropdown-item" href="pakaian wanita/baju.html">Baju</a></li>
+                                <li><a class="dropdown-item" href="pakaian wanita/celana.html">Celana</a></li>
+                                <li><a class="dropdown-item" href="pakaian wanita/gamis.html">Gamis</a></li>
+                                <li><a class="dropdown-item" href="pakaian wanita/hijab.html">Hijab</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="aksesoris.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aksesoris Pria
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="aksesoris/semua-aksesoris-pria.html">Semua Aksesoris Pria</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/sepatu.html">Sepatu</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/tas.html">Tas</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/topi.html">Topi</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/ikat-pinggang.html">Ikat Pinggang</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/kaos-kaki.html">Kaos Kaki</a></li>
+                                <li><a class="dropdown-item" href="aksesoris/jam-tangan.html">Jam Tangan</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link active" href="aksesoris.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aksesoris Wanita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="aksesoris wanita/semua-aksesoris-wanita.html">Semua Aksesoris Wanita</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/sepatu.html">Sepatu</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/tas.html">Tas</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/bros.html">Bros</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/kalung.html">Kalung</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/kaos-kaki.html">Kaos Kaki</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/ikat-rambut.html">Ikat Rambut</a></li>
+                                <li><a class="dropdown-item" href="aksesoris wanita/masker.html">Masker</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="artikel.html">Artikel</a>
+                    </li>
+                </ul>
+                <a class="btn btn-info button" href="login.html" role="button">
+                    <img width="20px" height="20px" src="img/masuk.png" alt="Login">
+                    Masuk Akun</a>
+                <a class="btn btn-info button" href="register.html" role="button">
+                    <img width="20px" height="20px" src="img/register.png" alt="Register">
+                    Register</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section class="header">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/silder1.jpg" class="d-block w-100" alt="silder1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider2.jpg" class="d-block w-100" alt="slider2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider3.jpg" class="d-block w-100" alt="slider3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Card -->
+    <div class="container">
+        <div class="generate">
+            <h2 class="judul mt-3 mb-3" data-aos="fade-right" data-aos-duration="2000">Menu</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="img/menu pakaian pria.jpg" class="card-img-top" alt="Pakaian Pria">
+                        <div class="card-body">
+                            <h5 class="card-title">Pakaian Pria</h5>
+                            <p class="card-text">Kami Selalu Menyediakan Kaos Pria Dengan Bahan Yang Lemut Cocok Untuk Semua Pria.</p>
+                            <a href="pakaian pria/semua-pakaian-pria.html" class="btn btn-dark">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="img/aksesoris pria.jpg" class="card-img-top" alt="Aksesoris Pria">
+                        <div class="card-body">
+                            <h5 class="card-title">Aksesoris Pria</h5>
+                            <p class="card-text">Kami menjual berbagai aksesoris pria mulai dari jam tangan hingga ikat pinggang semua lengkap ada disini</p>
+                            <a href="aksesoris/semua-aksesoris-pria.html" class="btn btn-dark">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="img/pakaian wanita.jpg" class="card-img-top" alt="Pakaian Wanita">
+                        <div class="card-body">
+                            <h5 class="card-title">Pakaian Wanita</h5>
+                            <p class="card-text">Beli Pilihan Produk Fashion Wanita Terlengkap dan Terbaik. Cek
+                                Promo, Ada Diskon Terbaru dan Bisa COD.</p>
+                            <a href="pakaian wanita/semua-pakaian-wanita.html" class="btn btn-dark">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="img/aksesoris.jpg" class="card-img-top" alt="Aksesoris">
+                        <div class="card-body">
+                            <h5 class="card-title">Aksesoris Wanita</h5>
+                            <p class="card-text">Anda juga bisa memlilih berbagai macam aksesoris wanita hanya di Yuanthio Marketplace</p>
+                            <a href="aksesoris wanita/semua-aksesoris-wanita.html" class="btn btn-dark">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="img/artikel.jpg" class="card-img-top" alt="Artikel">
+                        <div class="card-body">
+                            <h5 class="card-title">Artikel</h5>
+                            <p class="card-text">Kami menyediakan berbagai artikel seputar fashion dan inspirasi dalam fashion</p>
+                            <a href="artikel.html" class="btn btn-dark">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="img/profile.jpg" class="card-img-top" alt="Profile">
+                        <div class="card-body">
+                            <h5 class="card-title">Info Developer</h5>
+                            <p class="card-text">Informasi tentang pembuat website ini</p>
+                            <a href="developer/info-developer.html" class="btn btn-dark">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toko Offline -->
+    <section class="background-abu mt-5">
+        <div class="container">
+            <div class="toko-offline" data-aos="fade-left" data-aos-duration="500">
+                <div class="row">
+                    <div class="col-md-6 padding">
+                        <h3 class="judul-toko-offline">Toko Offline</h3>
+                        <p>Saat ini kami memiliki 7 toko yang tersebar di seluruh Indonesia dan akan terus berkembang
+                        </p>
+                        <a class="btn btn-info text-uppercase" href="toko-offline.html" role="button">Info Lebih Lanjut</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/toko.jpg" class="img-fluid" alt="Toko">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metode Pembayaran -->
+    <section class="pembayaran">
+        <div class="container">
+            <h2 class="judul mt-3 mb-3" data-aos="fade-right" data-aos-duration="2000">Metode Pembayaran</h2>
+            <div class="metode-pembayaran">
+                <div class="row text-center">
+                    <div class="col-md-2 col-sm-3 col-6 col mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-left" src="img/bca.png" alt="BCA">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-left" src="img/bri.jpg" alt="BRI">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-left" src="img/bjb.png" alt="BJB">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-left" src="img/btn.jpg" alt="BTN">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-left" src="img/bukopin.png" alt="BCA">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-left" src="img/mandiri.jpg" alt="MANDIRI">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-right" src="img/permata.png" alt="PERMATA">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-right" src="img/cimb-niaga.jpeg" alt="CIMB NIAGA">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-right" src="img/bni.jpg" alt="BNI">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-right" src="img/gopay.png" alt="GOPAY">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-right" src="img/ovo.png" alt="OVO">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-6 mb-3">
+                        <a href="">
+                            <img width="120px" data-aos="flip-right" src="img/shopeepay.png" alt="SHOPEEPAY">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info -->
+    <section class="informasi">
+        <div class="container mt-5">
+            <div class="info">
+                <div class="row">
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Butuh Bantuan?</h5>
+                        <p>Senin - Jumat: 08:00 - 20:00 WIB
+                            Sabtu - Minggu / Libur Nasional: 11:00 - 20:00 WIB</p>
+                        <a href="" class="bold text-decoration-none"><i class="bi bi-envelope-fill"></i>
+                            yuanthiovirly@gmail.com</a><br>
+                        <a href="https://goo.gl/maps/M4Uyc4TiogZo5oTG9" class="bold text-decoration-none"><i class="bi bi-geo-alt-fill"></i> Kertamaya Bogor Selatan</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Sosial Media</h5>
+                        <a class=" bold text-decoration-none" href="https://www.facebook.com/yuanthio.thio"><i
+                                class="bi bi-facebook"></i> Facebook</a>
+                        <br>
+                        <a class=" bold text-decoration-none"
+                            href="https://www.instagram.com/mass_yuan/?next=%2F"><i class="bi bi-instagram"></i>
+                            Instagram</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Menu</h5>
+                        <a class=" bold text-decoration-none" href="">Pakaian Pria</a><br>
+                        <a class=" bold text-decoration-none" href="">Pakaian Wanita</a><br>
+                        <a class=" bold text-decoration-none" href="">Aksesoris Pria</a><br>
+                        <a class=" bold text-decoration-none" href="">Aksesoris Wanita</a><br>
+                        <a class=" bold text-decoration-none" href="">Artikel</a><br>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <h5>Akun</h5>
+                        <a class=" bold text-decoration-none" href=""><i class="bi bi-box-arrow-in-right"></i> Masuk
+                            Akun</a><br>
+                        <a class=" bold text-decoration-none" href=""> <i class="bi bi-pencil-fill"></i>
+                            Register</a>
+                    </div>
+                    <div class="col-md-3">
+                        <hr>
+                        <a class="btn" href="#" role="button"> <i class="bi bi-telephone-fill"></i> Hubungi Kami</a>
+                        <a class="btn" href="#" role="button"> <i class="bi bi-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer bg-dark text-light">
+            <p>&copy; copyright 2022. | built with Yuanthio Virly</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
